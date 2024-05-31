@@ -1,7 +1,5 @@
-# CPADTeam02
-CPADTeam02
+# CPADTeam02 🏃🧘‍♂️
 
-# Team02 🏃🧘‍♂️
 BITS ID     | Name          | GitHub ID
 ----------  | -----         | --------
 2021hs70014 | Navya Khurana | navyakhurana
