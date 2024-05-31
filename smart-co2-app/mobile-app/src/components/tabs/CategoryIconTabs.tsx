@@ -34,7 +34,7 @@ export const CategoryIconTabs = ({
 
     return (
         <View style={styles}>
-            <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} contentOffset={{ x: offsetX, y: 0 }}>
+            <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} contentOffset={{ x: offsetX, y: 0 }} style={{marginLeft: '20%'}}>
                 {categories.map((category: { ID: string; icon: string }) => (
                     <TouchableOpacity
                         key={category.ID}

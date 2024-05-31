@@ -40,7 +40,7 @@ const Challenges = () => {
     console.log("challenges index rendered")
     return (
         <ScreenContainer>
-            <ScrollView showsVerticalScrollIndicator={false} style={{ paddingVertical: 8 }}>
+            <ScrollView showsVerticalScrollIndicator={false} style={{ paddingVertical: 8 , width:'80%', marginLeft:'10%'}}>
                 <Text variant="titleMedium" style={{ marginTop: 16 }}>
                     Challenge yourself
                 </Text>

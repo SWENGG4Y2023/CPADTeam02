@@ -21,7 +21,7 @@ const Habits = () => {
     const habitCategories: Array<IHabitCategory> = getHabitCategories();
     return (
         <ScreenContainer>
-            <ScrollView contentContainerStyle={{ paddingVertical: 8 }} showsVerticalScrollIndicator={false}>
+            <ScrollView contentContainerStyle={{ paddingVertical: 8, width:'80%', marginLeft:'10%' }} showsVerticalScrollIndicator={false}>
                 <Text variant="titleMedium" style={{ marginTop: 16 }}>
                     Spending habits
                 </Text>

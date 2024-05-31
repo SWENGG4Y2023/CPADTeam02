@@ -11,7 +11,8 @@ import FootprintInContextTile from "./footprint/FootprintInContextTile";
 const Home = () => {
     return (
         <ScreenContainer style={{ paddingHorizontal: 0 }}>
-            <ScrollView contentContainerStyle={{ paddingVertical: 8 }} showsVerticalScrollIndicator={false}>
+            <ScrollView contentContainerStyle={{ paddingVertical: 8 , width: '70%',
+            marginLeft: '15%' }} showsVerticalScrollIndicator={false}>
                 <View>
                     <CarouselSummary />
                 </View>
