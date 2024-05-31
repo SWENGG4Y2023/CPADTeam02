@@ -30,9 +30,9 @@ Help users understand how their consumption habits are driving their CO2 footpri
 A mobile app built using the reusable architecture principles of SAP Cloud Application Programming (CAP) model and React Native on SAP BTP. An application extension using GPT via the Azure Open AI service that combines business context with the capabilities of large language models on SAP BTP.
 
 ## Documents
-### Stakeholder Document - [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment01/Stakeholder.md)
-### User requirements document (URD) Document - [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment01/URD.md)
-### Software Requirements Specification (SRS) Document  - [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment01/SRS.md)
-### Architecture Document- [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment02/Architecture.md)
-### Software Design Document- [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment02/Design.md)
-### Fitbit App Testing Document- [Here](https://github.com/SWENGG4Y2023/CPADTEAM02/blob/main/Assignment02/test.md)
+### Stakeholder Document - [Here](documentation/Stakeholder.md)
+### User requirements document (URD) Document - [Here](documentation/URD.md)
+### Software Requirements Specification (SRS) Document  - [Here](documentation/SoftwareRequirementSpecification.md)
+### Architecture Document- [Here](documentation/architecture.md)
+### Software Design Document- [Here](documentation/softwareDesign.md)
+### App Testing Document- [Here](documentation/testing.md)
