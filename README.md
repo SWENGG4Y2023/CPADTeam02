@@ -5,7 +5,7 @@ BITS ID     | Name          | GitHub ID
 2021hs70014 | Navya Khurana | navyakhurana
 2021hs70005 | Kartik Kapoor | kartikapoor12
 2021hs70013 | Ayush Behl    | ayushbehl
-2021hs70014 | Sudhit Jain   | 
+2021hs70038 | Sudhit Jain   | DevSudhit
 
 # Reduce your CO2 footprint using a smart Generative AI application on SAP BTP
 
