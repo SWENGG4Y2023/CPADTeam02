@@ -40,7 +40,7 @@
       Conventions        | Definition
       -----------        | -----------
       RAM                | Random Access Memory 
-      SmartCO2 Members   | Person who is using the services of the Fitbit application 
+      SmartCO2 Members   | Person who is using the services of the Smart C02nverter application 
       PC                 | Personal Computer
       Stakeholders       | Any person with an interest in the project who is not a developer 
       Web                | Web Based (to run application on web)
@@ -57,60 +57,53 @@
          -  Test Members: to get familiar with the idea of the project and suggest other features that would make it even more functional. 
          -  Stakeholders: To review and provide feedback on the system specifications.
          -  Documentation writers: to know what features and in what way they must explain. What security technologies are required, how the system will response in each user’s action etc. 
-         -  Admin, Customers, Members: to know exactly what they must expect from the system, right inputs and outputs and response in error situations.
+         -  Admin, Business Customers, Members: to know exactly what they must expect from the system, right inputs and outputs and response in error situations.
 
    -  ### **1.4 Project Scope**
-      This system is aimed to give better out look to the user interfaces and to provide wellness information to the Fitbit Members. This project is a mobile and a web application where users can access the application while doing any physical activity. The main purpose of this system is to make users know their physical activity benefits and encourage them to work out more. This application can help users to track their fitness activities like how much calories they have burned, steps they have taken, distance they have walked, heart rate tracking etc. This application can help users who have joined gym recently in making their AI enabled workout schedule and help them in defining their fitness goal. It can also help in developing a diet and nutrition chart based on the current fitness condition of the user. The user can either be a consumer of fitness details or fitness consultant, a user can be fitness consultant only when its certification is verified. Once the user is verified as consultant, they can provide consultations to other users either for free or for a charge depending upon them and can share information with them. The consultation will be of either 30 minutes or 1 hour duration and users can rate the consultants based upon their liking. 
+      The Smart CO2 Converter application aims to empower consumers by providing insights into their carbon footprint based on daily activities. It leverages SAP CAP, React Native, and Azure Open AI to offer personalized recommendations for reducing CO2 emissions, thereby promoting environmental sustainability and responsible behavior.
 
    -  ### **1.5 References**
-         - Fitbit Help Center: https://help.fitbit.com/
-         - Fitbit research studies:
-            https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6629209/
-            https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4872186/
-            https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534733/
-         - Sichuan University Documents: https://www.studocu.com/row/document/sichuan-university
-         - Nike Training Club: https://www.nike.com/ntc-app
-
-
+         - [Consume OpenAI services (GPT) through CAP & SAP AI Core](https://github.com/SAP-samples/azure-openai-aicore-cap-api)
+         - [SAP BTP Product Page](https://help.sap.com/viewer/product/CP/Cloud/en-US?task=discover_task)
+         - [What Is SAP BTP](https://help.sap.com/viewer/3504ec5ef16548778610c7e89cc0eac3/Cloud/en-US/73beb06e127f4e47b849aa95344aabe1.html)
+         - [About CAP](https://cap.cloud.sap/docs/about/)
+         - [Learn how to get started](https://cap.cloud.sap/docs/get-started/)
+         - [CAP Documentation](https://cap.cloud.sap/)
+         - [See CAP Samples](https://cap.cloud.sap/docs/resources/#public-resources)
+         - [React Native](https://reactnative.dev/)
+         - [Expo](https://expo.dev/)
+         - [Overview of SAP BTP connectivity and destination services](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/what-is-sap-btp-connectivity)
 ##  **2. Overall Description**
 
    - ### **2.1 Product Perspective**
-      This Fitbit App is an independent system designed to handle various activities related to a gym, including exercises, generating member's report, managing trainers, and handling administrative issues. The system stores all records in a centralized database, which can only be accessed by the admin with unique IDs and specific permissions. To ensure data integrity, members are not permitted to modify records belonging to other Fitbit Members. Additionally, the system offers data recovery options in case of any lost data.
+      The Smart CO2 Converter is a standalone mobile application that integrates with SAP Business Technology Platform (BTP) for data management and Azure Open AI for generating insights. It is designed to be user-friendly and provide real-time feedback on users' carbon footprints.
+
    -  ### **2.2 Product Features**
-      Fitbit is an app that provides fitness and wellness advice to its users through a set of exercise activities, nutritional diet charts, and even real-time health coaching. The app utilizes artificial intelligence, machine learning, and other technologies to provide personalized fitness programs to our fitbit members.
+      Smart C02nverter is an app that provides fitness and wellness advice to its users through a set of exercise activities, nutritional diet charts, and even real-time health coaching. The app utilizes artificial intelligence, machine learning, and other technologies to provide recommendations to our members.
       The major feature of our app includes:
 
-      -  Footstep & Activity Tracker
-      -  Heart Monitoring                             
-      -  Water & Sleep Tracker
-      -  BMI Calculator
-      -  Altimeter - for tracking stairs climbed
-      -  Online consultation with trainers
-      -  Helps to Monitor Diet
-      -  AI-enabled workout schedule
+      - Activity analysis and CO2 footprint calculation.
+      - Personalized insights and recommendations.
+      - Emissions tracking and visualization.
+      - User engagement and educational content.
       
    -  ### 2.3 **User Classes and Characteristics**
-      Our app is available for download on both the Play Store for Android devices and the App Store for Apple devices. The app is designed to cater to three types of users: Trainers, Fitbit Members, and Administrators.
+      Our app is available for download on both the Play Store for Android devices and the App Store for Apple devices. The app is designed to cater to three types of users: Admins, SmartCO2 Consumers, and Environmentalist.
 
-         - Trainers:
-             These are the people who can create and share workout schedules and activities for our Fitbit members. To ensure quality service, Trainers are required to possess at least a basic certification as an instructor.
-         -  Fitbit Members:
-      These are the individuals who are interested in improving their lifestyle and seeking guidance from our verified trainers. These individuals can access a range of consultation services through our app to achieve their fitness goals.
-         -  Administrators:
-      The role of an Administrator in our app is to have complete access to all users, including both Fitbit Members and Trainers, as well as AI-generated workouts. Administrators should possess a sound understanding of health and fitness to ensure that they can effectively verify a Trainer's profile.
+         - Admins: Manage system configurations and monitor overall application performance.
+         - SmartCO2 Consumers: General consumers who use the app to track and reduce their carbon footprint.
+         - Trainers/Environmentalist: Environmental experts who provide additional insights and support to users.
 
 
  -  ### **2.4 Operating Environment**
-Fitbit will be used over smartphones:
-           
-           Android: Lollipop 5.1.0 or above
-           IOS: 12.0.0 or above
-           RAM: 512MB or above
+         - Mobile Platforms: iOS and Android.
+         - Backend: SAP BTP and Azure Open AI services.
+         - Development Tools: React Native, SAP CAP.
 
 
  -  ### **2.5 Design and Implementation Constraints**
-      These are the limitations and guidelines that need to be considered during the development of the Fitbit application. Some of the design and implementation constraints for the Fitbit application are:
-       -  Platform constraints: The Fitbit application should be designed and implemented to be compatible with a variety of platforms, including Android, iOS, and web-based platforms.
+      These are the limitations and guidelines that need to be considered during the development of the Smart C02nverter application. Some of the design and implementation constraints for the Smart C02nverter application are:
+       -  Platform constraints: The smart CO2nverter application should be designed and implemented to be compatible with a variety of platforms, including Android, iOS, and web-based platforms.
        -  Data security constraints: The application should be designed with a robust security system that protects user data and personal information.
        -  Performance constraints: The application should be designed and implemented to provide efficient and fast performance, with a focus on reducing loading times and minimizing resource usage.
        -  User interface constraints: The application should be designed with a user-friendly interface that is easy to navigate and understand.
@@ -120,22 +113,22 @@ Fitbit will be used over smartphones:
  
    -  ### **2.6 User Documentation**
       
-      User documentation for Fitbit includes a range of materials that are designed to help users understand how to use and get the most out of their Fitbit device and app. Some of them are as follows:
+      User documentation for smart CO2nverter includes a range of materials that are designed to help users understand how to use and get the most out of their smart CO2nverter app. Some of them are as follows:
 
-      - Quick start guide: This document provides a brief overview of the Fitbit device and how to set it up for use.
+      - Quick start guide: This document provides a brief overview of the smart CO2nverter and how to set it up for use.
 
-      - User manual: The user manual provides more detailed instructions for using the Fitbit device and app, including how to track activity, set goals, and use advanced features.
+      - User manual: The user manual provides more detailed instructions for using the smart CO2nverter app, including how to track activity, set goals, and use advanced features.
 
-      - Online help center: Fitbit provides an online help center that includes articles and tutorials on how to use specific features of the app and device, as well as troubleshooting tips and frequently asked questions.
+      - Online help center: smart CO2nverter provides an online help center that includes articles and tutorials on how to use specific features of the app , as well as troubleshooting tips and frequently asked questions.
 
-      - In-app help: The Fitbit app also includes in-app help, which can be accessed from within the app itself to provide users with real-time guidance on how to use specific features.
+      - In-app help: The smart CO2nverter app also includes in-app help, which can be accessed from within the app itself to provide users with real-time guidance on how to use specific features.
 
-      - Community forums: Fitbit also maintains community forums where users can ask questions, share tips and advice, and connect with other Fitbit members.
+      - Community forums: Smart CO2nverter also maintains community forums where users can ask questions, share tips and advice, and connect with other smart CO2nverter consumers or environmentalist.
 
    -  ### **2.7 Assumptions and Dependencies**
     
        -  Performance: It may include performance requirements for the  app, such as response time, scalability, and availability.
-       -  User Base: It is assumed that the app is having enough pre-joined trainers who can deal with the newly joined fitbit members.
+       -  User Base: It is assumed that the app is having enough pre-joined trainers who can deal with the newly joined Smart C02nverter members.
        -  Pre Knowledge :It is assumed that the administrator should have good knowledge of fitness and health so that they can validate the trainer’s profile.
        -  Platform: It is assumed that the platform on which the fitness app will run, such as iOS or Android.
        -  User Interface: It is assumed that a user interface design for the fitness app, including a color scheme, logo, and overall layout.
@@ -151,46 +144,41 @@ Fitbit will be used over smartphones:
 
       The features that are available to the Admin are:  
 
-      -   Admin can Add / Delete / Update Trainers and Fitbit member details.  
-      -   Admin has all rights to view the details of fitbit members.  
-      -   Admin can also view Transaction Details and update fitness membership packages with the trainers. 
-      -   Validate and verify trainers based upon their certification and feedback.
+      -   Manage user accounts and permissions.
+      -   Configure system settings and preferences.
+      -   Monitor system performance and usage statistics.
 
    - ### **3.2 User Features**
 
-      The features that are available to the members are  
+      The features that are available to the consumers are  
 
-      -   Can view profile history and details  
-      -   Makes inquiries and can take training membership.  
-      -   Can schedule a fitness consultancy session. 
-      -   Can view their past fitness records. 
-      -   Can create their self-fitness goals. 
-      -   Can give feedback to the trainers. 
-      -   Can provide feedback to the trainers and the fitness consultants 
+      -   Register and log in to the application.
+      -   Input daily activities and receive CO2 footprint calculations.
+      -   View personalized insights and recommendations.
+      -   Track CO2 footprint over time with visualizations.
+      -   Access educational content on sustainable practices.
   
    - ### **3.3 Trainer Features**
 
       The features that are available to the Trainer are:  
 
-      -   Trainer can view Member details who have subscribed to them.  
-      -   Accept or reschedule consultancy sessions with the members. 
-      -   Provide their fitness work-out details to the members. 
-      -   Can charge fees from the subscribed members. 
-      -   Trainers can also add blogs and videos about their activities. 
+      -   Provide additional insights and support to users.
+      -   Create and manage educational content.
+      -   Engage with users through the app’s communication channels.
 
 ## 4. External Interface Requirements
    - ### **4.1 User Interface Requirements**
    
-      Fitbit is designed to provide a user-friendly and engaging experience for members to access and manage their fitness data. The app is customizable, easy to navigate, and visually appealing, with features such as notifications and integrations with other apps to keep members motivated and engaged. The app is also accessible to members with disabilities and support multiple languages.
+      Smart C02nverter is designed to provide a user-friendly and engaging experience for members to access and manage their fitness data. The app is customizable, easy to navigate, and visually appealing, with features such as notifications and integrations with other apps to keep members motivated and engaged. The app is also accessible to members with disabilities and support multiple languages.
 
-      - Easy navigation: The Fitbit app should have an intuitive interface that is easy to navigate, with clear labeling of features and options.
+      - Easy navigation: The Smart C02nverter app should have an intuitive interface that is easy to navigate, with clear labeling of features and options.
       - Customization: The user interface should allow members to customize their experience, such as choosing which metrics to track or setting personal goals.
-      -  Visual feedback: The app should provide clear visual feedback, such as charts and graphs, to help members track their progress and understand their fitness data.
+      -  Visual feedback: The app should provide clear visual feedback, such as charts and graphs, to help members track their progress and understand their Smart C02nverter data.
       -  Notifications: The app should provide notifications, such as reminders to move or congratulatory messages for hitting goals, to help motivate and engage members.
       -  Integration with other apps: The app may integrate with other health and fitness apps, such as calorie trackers or meditation apps, to provide a comprehensive view of a members health and wellness.
       -  Accessibility: The app should be accessible to members with disabilities, with features such as high contrast mode or voice command options.
       -  Multilingual support: The app should support multiple languages to make it accessible to members around the world.
-      -  Membership Subscription Plan: The user interface shall allow users to view the membership subscription plans offered by the fitbit application and choose the plan that best fits their needs. The membership subscription plan page shall display the benefits and pricing of each plan. 
+      -  Membership Subscription Plan: The user interface shall allow users to view the membership subscription plans offered by the Smart C02nverter application and choose the plan that best fits their needs. The membership subscription plan page shall display the benefits and pricing of each plan. 
 
    -  ### **4.2 Hardware Interface Requirements**
    
@@ -204,26 +192,26 @@ Fitbit will be used over smartphones:
      
    -  ### **4.3 Software Interface Requirements**
       
-         - Operating system compatibility: The Fitbit app and device may require a specific operating system (OS) version to function properly. The app may be available for iOS, Android, and Windows devices, and may require a minimum OS version for each.
+         - Operating system compatibility: The Smart C02nverter app and device may require a specific operating system (OS) version to function properly. The app may be available for iOS, Android, and Windows devices, and may require a minimum OS version for each.
 
-         - API access: Fitbit may offer an API (application programming interface) that allows third-party developers to access and integrate Fitbit data into their own apps or services.
+         - API access: Smart C02nverter may offer an API (application programming interface) that allows third-party developers to access and integrate Smart C02nverter data into their own apps or services.
 
-         - SDK availability: Fitbit may offer a software development kit (SDK) that allows developers to create custom apps or features for Fitbit devices.
+         - SDK availability: Smart C02nverter may offer a software development kit (SDK) that allows developers to create custom apps or features for Smart C02nverter devices.
          
-         - Data transfer protocols: Fitbit devices may use specific data transfer protocols to send data to the Fitbit app, such as Bluetooth or Wi-Fi.
+         - Data transfer protocols: Smart C02nverter devices may use specific data transfer protocols to send data to the Smart C02nverter app, such as Bluetooth or Wi-Fi.
 
-         - Data storage: Fitbit may store user data, including fitness activity, sleep data, and other metrics, on their servers or in the cloud. Users may be able to access and manage their data through the app or web interface.
+         - Data storage: Smart C02nverter may store user data, including fitness activity, daily consumption of goods, and other metrics, on their servers or in the cloud. Users may be able to access and manage their data through the app or web interface.
          
          - Payment Gateway: The various membership plans integrate with a payment gateway to process user payments for subscription plans and other transactions. The payment gateway shall ensure secure and reliable payment processing and shall support different payment methods, including credit cards, PayPal, and other online payment systems. 
       
    -  ### **4.4 Communication Interface Requirements**
    
-         - Bluetooth connectivity: Fitbit devices use Bluetooth to connect to a members mobile device, allowing for data to be synced between the device and the Fitbit app.
-         - Wi-Fi connectivity: Fitbit devices may also be able to connect to Wi-Fi networks for more seamless data syncing and to access additional features such as music streaming and app updates.
-         - USB connectivity: Fitbit devices may also be able to connect to a members computer via USB cable to update firmware or transfer data.
-         - Mobile app interface: The Fitbit app provides a user-friendly interface for members to access and manage their fitness data, set goals, and track progress. The app may also offer social features, guided programs, and third-party integrations.
-         - Web interface: Fitbit also provides a web interface that allows members to access and manage their data, as well as to purchase new devices and accessories.
-         - Notifications: Fitbit devices and app may use notifications, such as push notifications, to communicate with members about activity progress, reminders, and other updates.
+         - Bluetooth connectivity: Smart C02nverter devices use Bluetooth to connect to a members mobile device, allowing for data to be synced between the device and the Smart C02nverter app.
+         - Wi-Fi connectivity: Smart C02nverter devices may also be able to connect to Wi-Fi networks for more seamless data syncing and to access additional features such as music streaming and app updates.
+         - USB connectivity: Smart C02nverter devices may also be able to connect to a members computer via USB cable to update firmware or transfer data.
+         - Mobile app interface: The Smart C02nverter app provides a user-friendly interface for members to access and manage their fitness data, set goals, and track progress. The app may also offer social features, guided programs, and third-party integrations.
+         - Web interface: Smart C02nverter also provides a web interface that allows members to access and manage their data, as well as to purchase new devices and accessories.
+         - Notifications: Smart C02nverter devices and app may use notifications, such as push notifications, to communicate with members about activity progress, reminders, and other updates.
       
 ## **5. Nonfunctional Requirements**
 
@@ -239,13 +227,13 @@ Fitbit will be used over smartphones:
          
    -  ### **5.2 Safety Requirements**
 
-         - Secure user data: Fitbit should protect the privacy of member's data by securely storing and transmitting personal information.
-         - User consent: Fitbit should clearly inform members about how their data will be used and obtain their consent before collecting any data.
-         - Safe user interface: Fitbit should provide a safe and secure user interface that is free from vulnerabilities that could be exploited by attackers.
-         - Secure network communication: Fitbit should encrypt data transmitted over the network to prevent unauthorized access.
-         - Appropriate use of permissions: Fitbit should only request necessary permissions and clearly explain why each permission is needed.
-         - Data retention policy: Fitbit should have a clear policy on how long member data is retained and how it is deleted when no longer needed.
-         - Regular security updates: Fitbit should regularly release security updates to patch any known vulnerabilities.
+         - Secure user data: Smart C02nverter should protect the privacy of member's data by securely storing and transmitting personal information.
+         - User consent: Smart C02nverter should clearly inform members about how their data will be used and obtain their consent before collecting any data.
+         - Safe user interface: Smart C02nverter should provide a safe and secure user interface that is free from vulnerabilities that could be exploited by attackers.
+         - Secure network communication: Smart C02nverter should encrypt data transmitted over the network to prevent unauthorized access.
+         - Appropriate use of permissions: Smart C02nverter should only request necessary permissions and clearly explain why each permission is needed.
+         - Data retention policy: Smart C02nverter should have a clear policy on how long member data is retained and how it is deleted when no longer needed.
+         - Regular security updates: Smart C02nverter should regularly release security updates to patch any known vulnerabilities.
 
 
    -  ### **5.3 Security Requirements**
