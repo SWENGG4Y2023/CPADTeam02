@@ -49,3 +49,9 @@ A mobile app built using the reusable architecture principles of SAP Cloud Appli
 ### Architecture Document- [Here](documentation/architecture.md)
 ### Software Design Document- [Here](documentation/softwareDesign.md)
 ### App Testing Document- [Here](documentation/testing.md)
+
+## License
+
+Smart C02nverter is released under the [MIT License](LICENSE).
+
+---
