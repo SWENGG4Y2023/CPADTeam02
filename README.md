@@ -29,6 +29,19 @@ Help users understand how their consumption habits are driving their CO2 footpri
 ### How You Get There - What is the solution?
 A mobile app built using the reusable architecture principles of SAP Cloud Application Programming (CAP) model and React Native on SAP BTP. An application extension using GPT via the Azure Open AI service that combines business context with the capabilities of large language models on SAP BTP.
 
+## Outcome
+
+A mobile app built using the reusable architecture principles of SAP Cloud Application Programming (CAP) model and React Native on SAP BTP. An application extension using GPT via the Azure Open AI service that combines business context with the capabilities of large language models on SAP BTP.
+
+<p>
+  <img src="documentation/assets/home.gif" alt="home" width="24%" />
+  <img src="documentation/assets/challenges.png" alt="challenges" width="24%" />
+  <img src="documentation/assets/suggestions.png" alt="suggestions" width="24%" />
+  <img src="documentation/assets/habits.png" alt="habits" width="24%" />
+</p>
+
+
+
 ## Documents
 ### Stakeholder Document - [Here](documentation/Stakeholder.md)
 ### User requirements document (URD) Document - [Here](documentation/URD.md)
