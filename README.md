@@ -18,7 +18,7 @@ In today's world, there is a growing need for individuals to adopt more sustaina
 
 The Smart CO2 Converter is an innovative mobile application designed to empower consumers to understand and reduce their carbon footprint. Built using SAP Cloud Application Programming (CAP) model and React Native on SAP Business Technology Platform (BTP), the app leverages Generative AI via Azure Open AI to provide personalized insights and actionable recommendations. By analyzing users' daily activities and highlighting the most impactful habits, the Smart CO2 Converter guides users towards more sustainable choices, fostering environmental responsibility and promoting a greener lifestyle.
 
-![GitHub stars](https://img.shields.io/github/stars/SWENGG4Y2023/CPADTEAM02)  ![GitHub forks](https://img.shields.io/github/forks/SWENGG4Y2023/CPADTEAM02)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/SWENGG4Y2023/CPADTEAM02) ![GitHub contributors](https://img.shields.io/github/contributors/SWENGG4Y2023/CPADTEAM02)
+![GitHub stars](https://img.shields.io/github/stars/SWENGG4Y2023/CPADTeam02)  ![GitHub forks](https://img.shields.io/github/forks/SWENGG4Y2023/CPADTeam02)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/SWENGG4Y2023/CPADTeam02) ![GitHub contributors](https://img.shields.io/github/contributors/SWENGG4Y2023/CPADTeam02)
 
 ### Current Position - What is the challenge?
 How might we enable people to be more climate conscious while strengthening their loyalty?
