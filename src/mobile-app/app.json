@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "smart-co2nverter-llm",
+    "slug": "smart-co2nverter-llm",
+    "version": "1.0.0",
+    "owner": "navyakhurana",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "privacy": "hidden",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DEEDFD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.navyakhurana.smart-co2nverter-llm"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#DEEDFD"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png",
+      "output": "server",
+      "bundler": "metro"
+    },
+    "extra": {
+      "apiKey": "a3b8107c",
+      "baseUrl": "https://tfe-india-genai-vedanta-genai-smart-converter-api-srv.cfapps.eu10-004.hana.ondemand.com",
+      "account": "8fbaa8ca-6cf3-4ea4-9764-82e6b841480d"
+    }
+  }
+}
