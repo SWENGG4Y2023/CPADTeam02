@@ -17,7 +17,7 @@
    -  [5.2 Software Design Quality Analysis and Evaluation Technique](#52-software-design-quality-analysis-and-evaluation-technique)
 ## 1 **Project Information**
 
-FSmart CO2nverter is an innovative CO2 converter designed to capture and transform carbon dioxide emissions into useful by-products such as fuel, building materials, or other valuable chemicals. This technology aims to mitigate the impact of greenhouse gases on the environment by converting CO2 into sustainable resources.
+Smart CO2nverter is an innovative CO2 converter designed to capture and transform carbon dioxide emissions into useful by-products such as fuel, building materials, or other valuable chemicals. This technology aims to mitigate the impact of greenhouse gases on the environment by converting CO2 into sustainable resources.
 
 ### Project Objectives:
 
