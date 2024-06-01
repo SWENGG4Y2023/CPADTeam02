@@ -7,6 +7,7 @@ BITS ID     | Name          | GitHub ID
 2021hs70013 | Ayush Behl    | ayushbehl
 2021hs70038 | Sudhit Jain   | DevSudhit
 
+
 # Reduce your CO2 footprint using a smart Generative AI application on SAP BTP
 
 <br/>
