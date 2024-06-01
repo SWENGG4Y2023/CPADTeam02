@@ -117,7 +117,7 @@ const ChallengeDetails = ({ route }: { route: any }) => {
                 </View>
             ) : (
                 <ScreenContainer>
-                    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingVertical: 8 }}>
+                    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingVertical: 8 , width:'80%', marginLeft:'10%'}}>
                         <Text variant="titleMedium" style={{ marginTop: 8 }}>
                             {associatedChallenge && associatedChallenge.title}
                         </Text>

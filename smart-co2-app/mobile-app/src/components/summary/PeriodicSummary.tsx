@@ -131,7 +131,7 @@ const AISummary = () => {
     };
 
     return (
-        <VerticalContainer>
+        <VerticalContainer sx={{width:'70%'}}>
             <Button icon="chat-question" mode="elevated" loading={isLoading} onPress={summarize}>
                 Summarize
             </Button>

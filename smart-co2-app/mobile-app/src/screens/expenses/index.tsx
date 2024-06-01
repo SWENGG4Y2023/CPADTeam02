@@ -105,12 +105,12 @@ export const Expenses = ({ route }: { route: any }) => {
     return (
         <ScreenContainer>
             <CategoryIconTabs activeIconTab={activeIconTab} press={setActiveIconTab} styles={{ paddingTop: 16 }} />
-            <View style={{ marginTop: 30 }}>
+            <View style={{ marginTop: 30 , marginLeft: '10%'}}>
                 <Text variant="titleMedium">
                     {categories.find((category: any) => category.ID === activeIconTab)?.description} emissions
                 </Text>
             </View>
-            <View style={{ marginTop: 16, flex: 1 }}>
+            <View style={{ marginTop: 16, flex: 1 , marginLeft: '10%', width:'80%'}}>
                 {transactions.length > 0 ? (
                     <FlatList
                         data={transactions}

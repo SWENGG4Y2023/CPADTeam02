@@ -10,6 +10,7 @@ import { SuggestionsTab } from "./SuggestionsTab";
 import { HabitsTab } from "./HabitsTab";
 import { useContext } from "react";
 import { AccountContext } from "../context/AccountContext";
+import { Text} from "react-native-paper";
 
 const Tab = createBottomTabNavigator();
 
@@ -26,6 +27,9 @@ const AppNavigation = () => {
                 </View>
             ) : (
                 <NavigationContainer>
+                      <View style={{ alignItems:'center', backgroundColor: colors.primary , height:'10%', paddingTop:'0.8%'}}>
+                <Text variant="titleLarge"  style={{color:'white', fontWeight:'800', fontSize:'40px'}}>{"Smart CO2 Convertor"}</Text>
+            </View>
                     <Tab.Navigator
                         screenOptions={{ headerShown: false }}
                         tabBar={({ navigation, state, descriptors, insets }) => (

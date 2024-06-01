@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 const SuggestionsTab = () => {
     const { colors } = useTheme();
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen
                 name="Suggestions"
                 component={Suggestions}

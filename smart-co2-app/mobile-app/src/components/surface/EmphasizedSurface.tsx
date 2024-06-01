@@ -20,7 +20,7 @@ const makeStyles = (colors: any) =>
         emphasizedSurface: {
             position: "relative",
             backgroundColor: colors.emphasize,
-            width: width - 32, // ScreenContainer
+            width: '98%',
             paddingHorizontal: 16,
             paddingVertical: 16
         }

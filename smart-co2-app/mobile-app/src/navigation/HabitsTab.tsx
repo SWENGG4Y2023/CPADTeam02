@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 const HabitsTab = () => {
     const { colors } = useTheme();
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen
                 name="Habits"
                 component={Habits}

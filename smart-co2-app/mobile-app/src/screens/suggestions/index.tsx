@@ -121,7 +121,7 @@ const Suggestions = () => {
 
     return (
         <ScreenContainer>
-            <ScrollView style={{ paddingVertical: 8 }} showsVerticalScrollIndicator={false}>
+            <ScrollView style={{ paddingVertical: 8 , width:'80%', marginLeft:'10%' }} showsVerticalScrollIndicator={false}>
                 <Text variant="titleMedium" style={{ marginTop: 16 }}>
                     Suggestions to reduce impact
                 </Text>

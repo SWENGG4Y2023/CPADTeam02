@@ -54,9 +54,9 @@ export default ChallengesTile;
 const makeStyles = (colors: any) =>
     StyleSheet.create({
         surface: {
-            width: width - 32, // ScreenContainer
             paddingHorizontal: 18,
             paddingTop: 18,
-            paddingBottom: 22
+            paddingBottom: 22,
+            width: '96%'
         }
     });
