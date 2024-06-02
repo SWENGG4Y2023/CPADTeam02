@@ -2,23 +2,22 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { ActivityIndicator, BottomNavigation, useTheme } from "react-native-paper";
-import { StyleSheet, View } from "react-native";
-
+import { Button, StyleSheet, View } from "react-native";
 import { HomeTab } from "./HomeTab";
 import { ChallengesTab } from "./ChallengesTab";
+import {Login} from './Login'
 import { SuggestionsTab } from "./SuggestionsTab";
 import { HabitsTab } from "./HabitsTab";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AccountContext } from "../context/AccountContext";
 import { Text} from "react-native-paper";
 
 const Tab = createBottomTabNavigator();
 
-const AppNavigation = () => {
+const AppNavigation = () =>{
     const { isLoading } = useContext(AccountContext);
-    const { colors } = useTheme();
+    const { colors } = useTheme( );
     const styles = makeStyles(colors);
-
     return (
         <>
             {isLoading ? (
@@ -27,9 +26,9 @@ const AppNavigation = () => {
                 </View>
             ) : (
                 <NavigationContainer>
-                      <View style={{ alignItems:'center', backgroundColor: colors.primary , height:'10%', paddingTop:'0.8%'}}>
-                <Text variant="titleLarge"  style={{color:'white', fontWeight:'800', fontSize:'40px'}}>{"Smart CO2 Convertor"}</Text>
-            </View>
+                      <View style={{  backgroundColor: colors.primary , height:'10%', paddingTop:'0.8%' }}>
+                    <Text variant="titleLarge"  style={{color:'white', fontWeight:'800', fontSize:'40px', marginLeft:'30%'}}>{"Smart CO2 Convertor"}</Text>  
+                    </View>                      
                     <Tab.Navigator
                         screenOptions={{ headerShown: false }}
                         tabBar={({ navigation, state, descriptors, insets }) => (
@@ -95,6 +94,14 @@ const AppNavigation = () => {
                             options={{
                                 tabBarLabel: "Habits",
                                 tabBarIcon: ({ color, size }) => <Icon name="account-cash" size={size} color={color} />
+                            }}
+                        />
+                       <Tab.Screen
+                            name="Login"
+                            component={Login}
+                            options={{
+                                tabBarLabel: "Login",
+                                tabBarIcon: ({ color, size }) => <Icon name="login-variant" size={size} color={color} />
                             }}
                         />
                     </Tab.Navigator>

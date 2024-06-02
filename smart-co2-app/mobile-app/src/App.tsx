@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './App.css';
 import { Image } from "react-native";
 import { registerRootComponent } from "expo";
 import { StatusBar } from "expo-status-bar";
